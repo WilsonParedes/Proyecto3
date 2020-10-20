@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+
+/*Estilos CSS página principal*/
+body{
+    background: #ED3125;
+    margin:auto;
+}
+
+#CabeceraPaginaPrincipal{
+    padding-top: 50px;
+}
+
+
+#TablaPrincipal{
+    text-align: left;
+    color: white;
+    margin:auto;
+    padding-top: 10px;
+}
+
+#IMGLoginPaginaPrincipal{
+    width:200px;
+    height:200px;
+}
+#Boton_Entrar_Principal{
+    margin: auto;
+
+}
+
