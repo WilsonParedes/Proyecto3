@@ -1,29 +1,148 @@
 @charset "ISO-8859-1";
 
 /*Estilos CSS página principal*/
-body{
-    background: #ED3125;
-    margin:auto;
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
 }
 
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+
+body{
+    background-color: #CF0C0C;
+    background: linear-gradient(180deg,#F0F0F0, #F0F0F0);
+}
+
+
 #CabeceraPaginaPrincipal{
-    padding-top: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: white;
+    font-family: Verdana;
+    font-size: 50px;
+    
 }
 
 
 #TablaPrincipal{
-    text-align: left;
     color: white;
     margin:auto;
-    padding-top: 10px;
+    padding-left:18%;
+  
+    
 }
-
 #IMGLoginPaginaPrincipal{
-    width:200px;
-    height:200px;
+    padding-left: 38%;
 }
-#Boton_Entrar_Principal{
-    margin: auto;
 
+
+#Boton_Entrar_Principal{
+	text-align: center;
+    border-color: #12AA0B;
+    color: black;	
+    width: 100px;
+    height:40px;
+    transition: width 1s;
+}
+
+#Boton_Entrar_Principal:hover{
+	background-color:#12AA0B;
+	width: 130px;
+ 	height: 42px;
+}
+
+
+
+
+#txtUsuario{
+    width: 75%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #1d5f0a;
+}
+
+#txtContra{
+    width: 75%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #1d5f0a;
+}
+h2{
+	color:white;
+}
+
+h1{
+	color:white;
+}
+
+
+#contenedorprincipal{
+	background:red;
+	width:30%;
+	padding:10px 10px;
+	box-shadow:  1px 1px 8px grey;
+	border-radius: 21px;
+	background: linear-gradient(180deg,white, white);
+	backdrop-filter: blur(20px);
+}
+
+
+.figur{
+	float:left;
+}
+
+.destacar{
+	
+	border-radius: 15px;
+	padding: 2px;
+	background: #626262;
+	-webkit-transition: -webkit-transform 0.3s ease-in-out 0.1s;
+	box-shadow: #878686 10px 25px 25px;
+	margin: 0 65px 65px 0;
+}
+
+
+.destacar:hover{
+	-webkit-transform:scale(1.2);
+}
+
+figcaption{
+	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size:1.1em;
+	padding: 0px 65px 65px 0px ;
+}
+
+#navegacionPrincipal{
+	clear:both;
+}
+
+
+footer{
+	clear:both;
+	padding-top: 100px;
+}
+
+footer p{
+	font:1.6em Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color:#5F5D5D;
+	margin:5px 10px;
+	
+}
+
+#LiLogoSalida{
+	padding-left:450px;
+	clear:both;
 }
 
